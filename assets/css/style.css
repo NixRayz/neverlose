@@ -1,7 +1,7 @@
 
 body {
 
-  background-image: url( "../../photo-1478760329108-5c3ed9d495a0.jfif");
+  background-image: url( "../../d9afb2f0c922f34cb6ae8ad219f53ca3.gif");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -1456,4 +1456,43 @@ flex-direction: column;
 align-items: center;
 }
 
+.video span {
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.about span {
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+  color: #007CA8;
+font: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"
+}
+
+.tarkib div {
+float: left;
+
+width: 460px;
+	
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+video {
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cta{
+ background-image: url( "../../ezgif.com-gif-maker_3.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+	
 

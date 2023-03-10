@@ -1,0 +1,241 @@
+/* Global */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+* {
+    box-sizing: border-box;
+}
+ 
+body,
+html {
+    height: 100%;
+    min-height: 100%;
+}
+ 
+body {
+    font-family: 'Roboto',
+    sans-serif;
+    margin: 0;
+    background-color: #e7e7e7;
+}
+/* CSS Document */
+
+.credit-card {
+    width: 360px;
+    height: 400px;
+    margin: 60px auto 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 1px 2px 3px 0 rgba(0,0,0,.10);
+}
+
+.form-header {
+    height: 60px;
+    padding: 20px 30px 0;
+    border-bottom: 1px solid #e1e8ee;
+}
+ 
+.form-body {
+    height: 340px;
+    padding: 30px 30px 20px;
+}
+
+.title {
+    font-size: 18px;
+    margin: 0;
+    color: #5e6977;
+}
+
+.card-number,
+.cvv-input input,
+.month select,
+.year select {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px;
+}
+ 
+.card-number,
+.month select,
+.year select {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px;
+}
+ 
+.card-number,
+.cvv-details,
+.cvv-input input,
+.month select,
+.year select {
+    opacity: .7;
+    color: #86939e;
+}
+
+.card-number {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+}
+
+.month select,
+.year select {
+    width: 145px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+    background: url('caret.png') no-repeat;
+    background-position: 85% 50%;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+ 
+.month select {
+    float: left;
+}
+ 
+.year select {
+    float: right;
+}
+
+.cvv-input input {
+    float: left;
+    width: 145px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+    background: #fff;
+}
+ 
+.cvv-details {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+    float: right;
+    margin-bottom: 20px;
+}
+ 
+.cvv-details p {
+    margin-top: 6px;
+}
+
+.paypal-btn,
+.proceed-btn {
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    border-color: transparent;
+    border-radius: 6px;
+}
+ 
+.proceed-btn {
+    margin-bottom: 10px;
+    background: #7dc855;
+}
+ 
+.paypal-btn a,
+.proceed-btn a {
+    text-decoration: none;
+}
+ 
+.proceed-btn a {
+    color: #fff;
+}
+ 
+.paypal-btn a {
+    color: rgba(242, 242, 242, .7);
+}
+ 
+.paypal-btn {
+    padding-right: 95px;
+    background: url('paypal-logo.svg') no-repeat 65% 56% #009cde;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  background: #0079d7;
+}
+.container{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.wrapper{
+  position: absolute;
+  top: -35px;
+  transform: scale(1.5);
+}
+.loader{
+  height: 25px;
+ width: 1px;
+ position: absolute;
+ animation: rotate 3.5s linear infinite;
+}
+.loader .dot{
+  top: 30px;
+ height: 7px;
+ width: 7px;
+ background: #fff;
+ border-radius: 50%;
+ position: relative;
+}
+.text{
+  position: absolute;
+  bottom: -85px;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: 'Poppins',sans-serif;
+  color: #fff;
+}
+@keyframes rotate {
+  30%{
+    transform: rotate(220deg);
+  }
+  40%{
+  transform: rotate(450deg);
+    opacity: 1;
+ }
+ 75%{
+  transform: rotate(720deg);
+  opacity: 1;
+ }
+ 76%{
+  opacity: 0;
+ }
+ 100%{
+  opacity: 0;
+  transform: rotate(0deg);
+ }
+}
+.loader:nth-child(1){
+  animation-delay: 0.15s;
+}
+.loader:nth-child(2){
+  animation-delay: 0.3s;
+}
+.loader:nth-child(3){
+  animation-delay: 0.45s;
+}
+.loader:nth-child(4){
+  animation-delay: 0.6s;
+}
+.loader:nth-child(5){
+  animation-delay: 0.75s;
+}
+.loader:nth-child(6){
+  animation-delay: 0.9s;
+}
